@@ -1,0 +1,1246 @@
+.login-signup {
+  padding: 0 0 25px;
+}
+
+.btn-success {
+  background: #23bab5;
+  border-radius:0;
+  border: 2px solid #23bab5;
+  webkit-transition: all 400ms cubic-bezier(.4,0,.2,1);
+  transition: all 400ms cubic-bezier(.4,0,.2,1);
+}
+
+.btn-success:hover,.btn-success:focus {
+  background: rgba(251, 251, 251, 0.96);
+  border: 2px solid #1aa19d;
+  webkit-transition: all 400ms cubic-bezier(.4,0,.2,1);
+  transition: all 400ms cubic-bezier(.4,0,.2,1);
+  color: #23BAB5;
+}
+
+a {
+  color: #23bab5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+article[role="login"] {
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
+  webkit-transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 30px 50px;
+  margin-bottom: 20px;
+}
+input[type="checkbox"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"]{margin-right:11px;}
+
+
+
+html body .ui-datepicker .ui-widget-header {
+    border: none;
+    background: #21b1ac !important;
+    color: #fff !important;
+    border-radius: 0;
+}
+html body .ui-datepicker .ui-datepicker-title {
+    color: #fff !important;
+	font-size: 16px !important;
+}
+
+article[role="login"] input[type="submit"] {
+  padding: 10px 15px;
+  font-size: 16px;
+}
+
+article[role="login"]:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 1px 15px rgba(0, 0, 0, 0.23);
+  webkit-transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+article[role="login"] h3 {
+  font-size: 26px;
+  font-weight: 300;
+  color: #23bab5;
+  margin-bottom: 20px;
+}
+
+article[role="login"] p {
+  font-size: 16px;
+  padding: 5px 15px;
+}
+
+.nav-tab-holder {
+  padding: 0 0 0 30px;
+  float: right;
+}
+
+.nav-tab-holder .nav-tabs {
+  border: 0;
+  float: none;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.nav-tab-holder .nav-tabs > li {
+  margin-bottom: -3px;
+  text-align: center;
+  padding: 0;
+  display: table-cell;
+  float: none;
+  padding: 0;
+}
+
+.nav-tab-holder .nav-tabs > li > a {
+  background: #d9d9d9;
+  color: #6c6c6c;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.img-confirm {
+    background: url(../../../img/check_icon.png) no-repeat;
+    height: 101px;
+    position: relative;
+    /* top: 20px; */
+    /* width: 30%; */
+    /* text-align: center; */
+    margin-left: 43%;
+    text-align: center;
+}
+#header ul li span #tel {
+    display: inline-block;
+       padding-right: 0px;
+    padding-bottom: 0px;
+    margin-left: 24px;
+    margin-top: -3px;
+}
+
+#header ul li span #logo {
+    display: inline-block;
+       padding-right: 24px;
+    padding-bottom: 0px;
+}
+
+
+#header ul li {
+    display: inline-block;
+}
+#header ul li:first-chils {
+    display: block;
+}
+div#appointment-details {
+    text-align: center;
+}
+
+.nav-tab-holder .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #FFF;
+  background-color: #23bab5;
+  border: 0;
+  border-radius: 0;
+}
+
+.mobile-pull {
+  float: right;
+}
+
+article[role="manufacturer"] {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
+  padding: 0 0 40px;
+  max-width: 420px;
+  margin: -45px auto 0;
+}
+
+article[role="manufacturer"] header {
+  background: #23bab5;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+article[role="manufacturer"] h1 {
+  font-size: 26px;
+  font-weight: 300;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 25px 15px;
+}
+
+article[role="manufacturer"] ul {
+  padding: 0 25px;
+}
+
+article[role="manufacturer"] ul li {
+  font-size: 16px;
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 15px;
+  color:#404040;
+}
+
+article[role="manufacturer"] ul li i {
+  color: #23bab5;
+}
+
+.login-signup {
+  padding: 0 0 25px;
+}
+
+#book-appointment-wizard {
+    background: #fff0 !important;
+    box-shadow: 0px 1px 1px #b6b6b600 !important;
+    min-height: 480px;
+    padding: 0;
+}
+input.input-sm{
+    height: 25px;
+}
+
+/* input.form-control, input[type=text], input[type=password], input[type=email], input[type=number], [type=text].form-control, [type=password].form-control, [type=email].form-control, [type=tel].form-control, [contenteditable].form-control {
+    margin-bottom: 25px;
+    border: 0;
+    padding: 10px;
+    height: 52px !important;
+    border-radius: 8px !important;
+    color: #190f0f !important;
+    border-bottom: none;
+    background: #dddddd;
+} */
+textarea, textarea.form-control{ height: 88px !important;border-radius: 8px !important;
+    color: #190f0f !important;
+    border-bottom: none;
+    padding: 10px;
+    background: #dddddd;}
+label {
+    font-weight: normal;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+/*service provider*/
+
+#book-appointment-wizard #wizard-frame-1 select {
+    margin-bottom: 25px;
+    border: 0;
+    padding: 0 20px;
+    /* height: 114%; */
+    border-radius: 3px;
+    color: #191818;
+    border-bottom: none;
+    background: #ddd url(http://dev1.kindlebit.com/kiwipchelp/assets/img/select-arrow.png) no-repeat center right 20px !important;
+    background-size: 18px !important;
+}
+
+.account_logout a {
+    color: #fdfdfd !important;
+    margin-left: 10px;
+}
+
+/*.account_logout {
+    width: 16%;
+    text-align: center;
+    position: absolute;
+    top: 57px;
+    z-index: 999;
+    color: #fff !important;
+    right: 28px;
+    font-size: 15px;
+	font-weight: 700;
+}
+*/
+
+
+   .account_logout {
+       width: 23% !important;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    right: 28px;
+    font-size: 15px;
+    font-weight: 700;
+    height: 80px;
+    display: flex !important;
+    align-items: flex-end;
+}
+
+.tel_number_hero{
+    display: flex !important;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.user_name.d-inline-block p {
+  margin: 0;
+}
+.user_name.d-inline-block {
+    width: 60%;
+    float: left;
+}
+
+
+.user-log.d-inline-block{
+  width: 38%;
+    float: right
+    }
+h3.frame-title {
+    padding: 9px;
+    margin: 0;
+}
+/* select, .form-group .select.form-control{
+        background: #f3f3f3 !important;
+    height: 52px !important;
+    border-radius: 8px !important;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAMAAACelLz8AAAAJ1BMV…3X6xt0QL6JpZWq30pdvdadme+0PMdzvHm8YThHcT1H7K0BtOMDniZhWOgAAAAASUVORK5CYII=);
+    -webkit-background-size: 13px 13px;
+    background-size: 13px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    font-size: 16px;
+    line-height: 1.5;
+} */
+
+
+
+#book-appointment-wizard #wizard-frame-1 select {
+    margin-bottom: 25px;
+    border: 0;
+    padding: 0 20px;
+    /* height: 114%; */
+    border-radius: 3px;
+    color: #191818;
+    border-bottom: none; 
+    background-image: url("http://dev1.kindlebit.com/kiwipchelp/assets/img/select-arrow.png");
+}
+.form-control{box-shadow:none;}
+
+#book-appointment-wizard .wizard-frame .command-buttons .btn {
+    min-width: 201px;
+    margin-right: 10px;
+	    position: relative;
+    top: 16px;
+}
+#header ul {
+    list-style-type: none;
+    padding-top: 20px;
+}
+
+#book-appointment-wizard .frame-container .frame-title{text-align: center;
+    /* margin-bottom: 28px; */
+    color: #666;
+    /* top: 0px; */
+    color: #FFF;
+    position: relative;
+    /* background: #d9d9d9; */
+    color: #7e7f81;
+    margin: 0;
+    font-size: 21px;
+    padding: 33px 33px 0px33px;
+    font-weight: 400;
+    padding-top: 69px;}
+h3.frame-title {
+    text-align: center;
+    /* margin-bottom: 28px; */
+    color: #666;
+    /* top: 0px; */
+    color: #FFF;
+    position: relative;
+    /* background: #d9d9d9; */
+    color: #7e7f81;
+    margin: 0;
+    font-size: 21px;
+    padding: 33px 33px 0px33px;
+    font-weight: 400;
+    padding-top: 69px;
+}
+
+#book-appointment-wizard .book-step {
+    display: inline-block;
+    /* height: 40px; */
+    width: 144px;
+    float: left;
+    background: #FFF;
+    padding: 1px;
+    margin-right: 10px;
+    margin-top: 9px;
+    border: 3px solid #799ae2;
+}
+
+#book-appointment-wizard #steps {
+    width: 522px;
+    /* display: inline-block; */
+    /* float: right; */
+    margin-top: 28px !important;
+}
+#book-appointment-wizard #steps {
+    width: 607px;
+    display: inline-block;
+    float: left;
+    margin-top: 3px !important;
+    z-index: 999;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+#book-appointment-wizard .active-step {
+    display: inline-block;
+    height: 40px;
+    width: 118px;
+    /* float: left; */
+    /* background: #FFF; */
+    /* padding: 1px; */
+    /* margin-right: 10px; */
+    /* margin-top: 3px; */
+    border: 3px solid #c3c0f1;
+}
+body{background-image: linear-gradient(to right, #caf2e7 , #b8e7f9); }
+.btn-primary {
+    color: #ffffff;
+	    border: 1px solid #23bab5;
+    /* background-color: #4790ca; */
+    /* border-color: transparent; */
+    background: #23bab5;
+    border-radius: 0;
+    /* border: 2px solid #23bab5; */
+    padding: 5px 15px;
+    font-size: 16px;
+    webkit-transition: all 400ms cubic-bezier(.4,0,.2,1);
+    transition: all 400ms cubic-bezier(.4,0,.2,1);
+}
+.btn-primary:active{ background-color: #fff !important;
+    border: 1px solid #23bab5;
+    color: #23bab5;}
+	
+	.btn-primary:focus {
+    background-color: #23bab5;
+}
+
+.btn-primary:hover, .btn-primary:active:hover {
+    background-color: #fff !important;
+    border: 1px solid #23bab5;
+    color: #23bab5;
+}
+
+.available-hour {
+    border-radius: 1px solid red;
+    border: 1px solid #e2e1e1;
+     margin-top: 5px; 
+    border-radius: 12px;
+}
+
+#book-appointment-wizard #available-hours .selected-hour {
+    color: #fff;
+    font-weight: bold;
+    background: #ecb32e !important;
+    /* padding: 10px; */
+}
+#book-appointment-wizard #available-hours .available-hour:hover {
+    /* color: #fff;
+    font-weight: bold; */
+    /* background: #23bab5; */
+    /* padding: 10px; */
+}
+
+#book-appointment-wizard #available-hours .available-hour {
+    font-size: 15px;
+    padding: 1px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin-right: 3px !important;
+}
+
+#book-appointment-wizard #available-hours .available-hour {
+    margin: 0px !important;
+    font-size: 12px;
+    line-height: normal;
+    padding: 5px;
+    display: block;
+    float: left;
+    width: 100%;
+    position: relative;
+    left: 0px;
+    box-sizing: border-box;
+    margin: 5px !important;
+}
+.date-sec input.available-hour.selected-hour {
+    width: 9% !important;
+    padding: 0px 5px !important;
+}
+
+<div class="date-sec"><span class="">10:00 AM</span><input class="available-hour selected-hour" servi_price="50" type="checkbox" value="10:00 AM"><p>50 Euro</p></div>
+
+div#available-hours {
+    width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.date-sec {
+    display: flex;
+    margin: 0 auto;
+}
+
+
+#book-appointment-wizard .frame-container .frame-content {
+    height: auto !important;
+    min-height: 365px !important;
+}
+
+
+div#available-hours div br {
+    display: none;
+}
+
+div#wizard-frame-2 .col-xs-12.col-sm-6 {
+    padding: 0px;
+}
+div#wizard-frame-3 .col-xs-12.col-sm-6 {
+    padding: 0px;
+}
+
+div#customer-details {
+ 
+    padding-left: 25px;
+}
+
+div#customer-details {
+    text-align: center;
+}
+
+#appointment-details h4 {
+       font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #3faaab;
+}
+
+#customer-details h4 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#appointment-details .text-primary {
+      color: #6b7171;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+#book-appointment-wizard .frame-container .frame-content {
+    margin: auto;
+    float: none;
+    background: #fff;
+    border: 1px solid #efe5e5;
+    padding: 30px 69px;
+}
+
+#book-appointment-wizard #wizard-frame-1 label {
+    font-size: 19px;
+    margin-bottom: -2px !important;
+}
+
+.form-group strong {
+    font-size: 15px;
+font-weight: 500;}
+
+html body .ui-datepicker td a.ui-state-active {
+    color: #FFF !important;
+    font-weight: bold !important;
+    background:#ecb32e !important;
+    border-radius: 0;
+    width: 26px;
+    height: 26px;
+    line-height: 1.7 !important;
+    margin: 4px;
+}
+
+#book-appointment-wizard .book-step {
+    display: inline-block;
+    /* height: 40px; */
+    width: 144px;
+    float: left;
+    background: #FFF;
+    padding: 1px;
+    margin-right: 10px;
+    margin-top: 9px;
+    border: 3px solid #799ae2;
+}
+
+#book-appointment-wizard #steps {
+    width: 522px;
+    /* display: inline-block; */
+    /* float: right; */
+    margin-top: 28px !important;
+}
+
+#book-appointment-wizard .active-step {
+    display: inline-block;
+    height: 40px;
+    width: 118px;
+    /* float: left; */
+    /* background: #FFF; */
+    /* padding: 1px; */
+    /* margin-right: 10px; */
+    /* margin-top: 3px; */
+    border: 3px solid #c3c0f1;
+}
+
+body .ui-datepicker .ui-widget-header {
+    border: none;
+
+    border-radius: 0;
+	    background-color: #7dc3c529 !important;
+}
+body .ui-datepicker td a.ui-state-highlight{ color: #FFF !important;
+    font-weight: bold !important;
+    background: #23bab5 !important;
+    border-radius: 0;
+    width: 26px;
+    height: 26px;
+    line-height: 1.7 !important;
+    margin: 4px;}
+body .ui-datepicker th{ background: #23bab5 !important;}
+
+body .ui-datepicker .ui-widget-header {
+    border-bottom: 2px solid #21b1ac;
+	    background-color: #f5f0f096 !important;
+}
+.btn-primary:hover, .btn-primary:active:hover {
+    background-color: #fff !important;
+    border: 1px solid #23bab5;
+    color: #23bab5;
+}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+    top: 75%;
+}
+
+body .ui-widget.ui-widget-content {
+    border: 1px solid #21b1ac;
+}
+
+/*breadcrum*/
+
+#book-appointment-wizard .breadcrumb-list {
+    padding: 0px;
+	background: #D4D4D4;
+	list-style: none; 
+	overflow: hidden;
+    margin-top: 20px;
+}
+#book-appointment-wizard .breadcrumb-list .book-step + .book-step:before {
+	padding: 0;
+}
+#book-appointment-wizard .breadcrumb-list .book-step { 
+	float: left; 
+}
+#book-appointment-wizard .breadcrumb-list .book-step.active{
+	background: brown;                   /* fallback color */
+	background: #ffc107 ; 
+}
+#book-appointment-wizard .breadcrumb-list .book-step.completed {
+	background: brown;                   /* fallback color */
+	background: hsla(153, 57%, 51%, 1); 
+}
+#book-appointment-wizard .breadcrumb-list .book-step.active:after {
+	border-left: 30px solid #ffc107 ;
+}
+#book-appointment-wizard .breadcrumb-list .book-step.completed:after {
+	border-left: 30px solid hsla(153, 57%, 51%, 1);
+} 
+
+#book-appointment-wizard .breadcrumb-list .book-step {
+    color: white;
+    text-decoration: none;
+    padding: 10px 0 10px 45px;
+    position: relative;
+    display: block;
+    float: left;
+    background: none;
+    border: none;
+    height: auto;
+    width: auto; margin: 0;
+}
+#book-appointment-wizard .breadcrumb-list .book-step:after { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid hsla(0, 0%, 83%, 1);
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	left: 100%;
+	z-index: 2; 
+}	
+#book-appointment-wizard .breadcrumb-list .book-step:before { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid white;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	margin-left: 1px;
+	left: 100%;
+	z-index: 1; 
+}	
+#book-appointment-wizard .breadcrumb-list .book-step:first-child a {
+	padding-left: 15px;
+}
+#book-appointment-wizard .breadcrumb-list .book-step:hover { background: #ffc107  ; }
+#book-appointment-wizard .breadcrumb-list .book-step:hover:after { border-left-color: #ffc107   !important; }
+
+#book-appointment-wizard #book-appointment-wizard .breadcrumb-list .book-step {
+    background: none;
+    border: none;
+    height: auto;
+    width: auto;
+}
+
+#book-appointment-wizard .breadcrumb-list .book-step strong {
+    font-size: 14px;
+}
+
+/*end*/
+#book-appointment-wizard .wizard-frame {
+   
+    height: auto;
+    ackground: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24);
+    webkit-transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0;
+    margin-bottom: 20px;
+  background: #f1f5f8;
+}
+
+
+.account_logout a {
+    color: #fff !important;
+}
+
+
+div#available-hours div {
+    /* width: 100% !important; */
+}
+
+#book-appointment-wizard #available-hours .available-hour {
+    width: 80px;
+    margin: 5px !important;
+}
+
+div#available-hours div p {
+    margin: 5px 5px;
+    text-align: left;
+    float: left;
+}
+
+.ui-datepicker table {
+	border: 1px solid #f3efef;
+}
+
+body .ui-widget.ui-widget-content {
+    border: 0px;
+}
+
+#available-hours{
+    /* float: left;
+    margin-left: 59px;
+    margin-bottom: 10px; */
+}
+/* div#select-date {
+    border-right: 1px solid #f3f1f1;
+} */
+html body .ui-datepicker td a.ui-state-active {
+    border-radius: 50%;
+}
+
+body .ui-datepicker td a.ui-state-highlight {
+    border-radius: 50%;
+    background-color: #eeeeee !important;
+    color: #23bab5 !important;
+}
+
+
+body .ui-datepicker .ui-widget-header .ui-icon {margin-top: 0px;background-color: #a1b2ca;border-radius: 50%;}
+
+body .ui-datepicker .ui-datepicker-title {
+    color: #989595;
+}
+
+body .ui-datepicker .ui-widget-header a:hover {
+    background-color: transparent !important;
+    border: 0px;
+    outline: 0px;
+    top: 0px !important;
+    bottom: 0px !important;
+}
+
+#book-appointment-wizard .book-step strong{color:gray;font-size:18px;    line-height: 3;}
+#book-appointment-wizard #steps{margin:0 auto;position:absolute;top:73px;left:0;width:100%!important;display:flex;justify-content:center;box-shadow: 0px 0px;}
+#book-appointment-wizard .book-step{border:2px solid #2f87aa;border-radius:50%;margin-right: 5%;height:40px;width:40px}
+/* #book-appointment-wizard #step-1:after{content:"";position:absolute;border:1px dashed #2f87aa;width:50px;top:19px;left:34.9%}
+#book-appointment-wizard #step-2:after{content:"";position:absolute;border:1px dashed #2f87aa;width:50px;top:19px;left:46.7%}
+#book-appointment-wizard #step-3:after{content:"";position:absolute;border:1px dashed #2f87aa;width:50px;top:19px;left:58.7%} */
+#book-appointment-wizard .active-step{background-color:#2f87aa}
+#book-appointment-wizard .active-step strong{color:#fff}
+
+
+
+
+
+#book-appointment-wizard .book-step strong {
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+#book-appointment-wizard .wizard-frame .command-buttons {
+    float: none !important;
+	text-align:center;
+}
+#book-appointment-wizard #steps {
+   /*width: 761px;
+    display: inline-block;
+    float: left;
+    margin-top: 3px !important;
+    z-index: 999;*/
+}
+select, select.form-control{box-shadow: 0 !important;}
+#book-appointment-wizard #header {
+padding: 0 !important;}
+#book-appointment-wizard .wizard-frame .frame-container {
+    height: auto !important;
+    margin-bottom: 10px;
+}
+#book-appointment-wizard .breadcrumb-list .book-step.active-step strong{color:#fff;}
+#book-appointment-wizard .breadcrumb-list .book-step.active-step {
+    background: #ecb32e;
+}
+#book-appointment-wizard .breadcrumb-list .book-step.active-step:after {
+    border-left: 30px solid #ecb32e;
+}
+
+#header ul li:first-child {
+    display: block;
+}
+.account_logout a {
+    color: #1589b7 !important;
+}
+
+
+.booking-header-bar.row {
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+}
+
+#cancel-appointment-frame {
+    position: absolute;
+    bottom: 125px;
+    width: 100%;
+}
+.btn-danger {
+    color: #ffffff;
+    background-color: #23bab5 !important;
+    border-color: transparent;
+}
+.tel_num {
+    padding-top: 40px;
+}
+@media only screen and (max-width : 767px) {
+.tel_num {
+    padding-top: 0px;
+}
+#datatable1 {
+    width: auto;
+}
+@media only screen and (max-width : 767px) {
+#datatable1 {
+    width: 300px;
+}
+#datatable {
+    width: auto;
+}
+@media only screen and (max-width : 767px) {
+#datatable {
+    width: 300px;
+}
+    
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+.user-log.d-inline-block {
+    width: 42%;
+    float: right;
+}}
+@media only screen and (max-width: 767px) {
+
+.account_logout{display: block;
+    width: 100% !important;
+    right: 0;    top: 58px;}
+
+.user-log a{position: absolute;
+    right: 15px;
+    /* top: 27px; */
+    top: 27px;}
+.user-log.d-inline-block a {
+    top: 2;
+    position: relative;
+    top: 27px;
+}
+#book-appointment-wizard #available-hours {
+    /* overflow: auto;
+    margin: 20px auto; */
+    width: auto;
+}
+#cancel-appointment-frame {
+    position: absolute;
+    bottom: 134px;
+    width: 100%;
+    text-align: center;
+}
+.booking-header-bar.row {
+    position: absolute;
+    bottom: 55px;
+    width: 100%;
+    text-align: center;
+}
+
+/* #book-appointment-wizard #step-1:after {
+    content: "";
+    position: absolute;
+    border: 1px dashed #2f87aa;
+    width: 50px;
+    top: 19px;
+    left: 21.9%;
+}
+#book-appointment-wizard #step-3:after {
+    content: "";
+    position: absolute;
+    border: 1px dashed #2f87aa;
+    width: 50px;
+    top: 19px;
+    left: 65.7%;
+} */
+.user_name.d-inline-block {
+    width: 103%;
+    float: left;
+    color: #2f87aa;
+    position: absolute;
+    top: -36px;
+    border: 1x solid;
+    /* / border: 1px solid red; /
+    / background: #2f87aa; /
+    / padding: 20px; / */
+    right: 0px;
+}
+/*.user-log.d-inline-block {
+    width: 107%;
+    / float: right; /
+    matgin-top: 20px;
+    position: absolute;
+    / margin-top: 14px; /
+    top: 20px;
+}*/
+
+  .mobile-pull {
+    float: none;
+  }
+  
+  .nav-tab-holder .nav-tabs > li > a {
+    background: #d9d9d9;
+    color: #6c6c6c;
+    margin: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+  
+  article[role="login"] {
+    background: #fff;
+    box-shadow: none;
+    /* -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 10px rgba(0, 0, 0, 0.24); */
+    webkit-transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 400ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 30px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #efeaea;
+}
+  
+ #book-appointment-wizard .frame-container .frame-content {
+    margin: auto;
+    float: none;
+    background: #fff;
+    border: 1px solid #efe5e5;
+    padding: 30px 20px;
+}
+  
+  .img-confirm {
+    background: url(../../../img/check_icon.png) no-repeat;
+    height: 101px;
+    position: relative;
+    /* top: 20px; */
+    /* width: 30%; */
+    /* text-align: center; */
+    margin-left: 30%;
+    text-align: center;
+}
+  
+  #book-appointment-wizard .wizard-frame .command-buttons .btn {
+  min-width: 100px;}
+  
+  .btn-primary {
+    color: #ffffff;
+    border: 1px solid #23bab5;
+    /* background-color: #4790ca; */
+    /* border-color: transparent; */
+    background: #23bab5;
+    border-radius: 0;
+    /* border: 2px solid #23bab5; */
+    padding: 2px 15px;
+    font-size: 16px;
+    webkit-transition: all 400ms cubic-bezier(.4,0,.2,1);
+    transition: all 400ms cubic-bezier(.4,0,.2,1);
+}
+#header ul {
+    list-style-type: none;
+    padding-bottom: 9px;
+    text-align: center;
+    /* padding-right: 44px; */
+}
+#book-appointment-wizard #steps {
+    margin: 0 auto;
+    position: absolute;
+    top: 93px;}
+.account_logout {
+    text-align: center;
+    top: 25px;
+    z-index: 999;
+    color: #2b5df1 !important;
+    left: -10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.user_name p{
+   position: absolute;
+       top: 64px;
+    left: 15px;}
+
+
+.user-log.d-inline-block a {
+    top: 2;
+    position: absolute;
+    right: 20px;
+    /* top: 27px; */
+    top: 27px;
+}
+
+
+/* #book-appointment-wizard #step-1:after {
+    content: "";
+    position: absolute;
+    border: 1px dashed #2f87aa;
+    width: 50px;
+    top: 19px;
+    left: 19.9%;
+}
+
+#book-appointment-wizard #step-2:after {
+    content: "";
+    position: absolute;
+    border: 1px dashed #2f87aa;
+    width: 50px;
+    top: 19px;
+    left: 43.7%;
+}
+
+#book-appointment-wizard #step-3:after {
+    content: "";
+    position: absolute;
+    border: 1px dashed #2f87aa;
+    width: 50px;
+    top: 19px;
+    left: 67.7%;
+} */
+  .nav-tab-holder {
+    float: none;
+    overflow: hidden;
+  }
+  
+
+
+  .nav-tabs > li > a {
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .nav-tabs > li {
+    width: 50%;
+  }
+}
+.progress{
+    width: 150px;
+    height: 150px;
+    line-height: 150px;
+    background: none;
+    margin: 0 auto;
+    box-shadow: none;
+    position: relative;
+}
+.progress:after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 12px solid #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.progress > span{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+.progress .progress-left{
+    left: 0;
+}
+.progress .progress-bar{
+    width: 100%;
+    height: 100%;
+    background: none;
+    border-width: 12px;
+    border-style: solid;
+    position: absolute;
+    top: 0;
+}
+.progress .progress-left .progress-bar{
+    left: 100%;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    border-left: 0;
+    -webkit-transform-origin: center left;
+    transform-origin: center left;
+}
+.progress .progress-right{
+    right: 0;
+}
+.progress .progress-right .progress-bar{
+    left: -100%;
+    border-top-left-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-right: 0;
+    -webkit-transform-origin: center right;
+    transform-origin: center right;
+    animation: loading-1 1.8s linear forwards;
+}
+.progress .progress-value{
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background: #44484b;
+    font-size: 24px;
+    color: #fff;
+    line-height: 135px;
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+.progress.blue .progress-bar{
+    border-color: #049dff;
+}
+.progress.blue .progress-left .progress-bar{
+    animation: loading-2 1.5s linear forwards 1.8s;
+}
+.progress.yellow .progress-bar{
+    border-color: #fdba04;
+}
+.progress.yellow .progress-left .progress-bar{
+    animation: loading-3 1s linear forwards 1.8s;
+}
+.progress.pink .progress-bar{
+    border-color: #ed687c;
+}
+.progress.pink .progress-left .progress-bar{
+    animation: loading-4 0.4s linear forwards 1.8s;
+}
+.progress.green .progress-bar{
+    border-color: #1abc9c;
+}
+.progress.green .progress-left .progress-bar{
+    animation: loading-5 1.2s linear forwards 1.8s;
+}
+@keyframes loading-1{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+    }
+}
+@keyframes loading-2{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(144deg);
+        transform: rotate(144deg);
+    }
+}
+@keyframes loading-3{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+    }
+}
+@keyframes loading-4{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(36deg);
+        transform: rotate(36deg);
+    }
+}
+@keyframes loading-5{
+    0%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(126deg);
+        transform: rotate(126deg);
+    }
+}
+@media only screen and (max-width: 990px){
+    .progress{ margin-bottom: 20px; }
+}
+
